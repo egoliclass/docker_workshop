@@ -9,4 +9,4 @@ print(df.head())
 
 print(f"Running pipeline for month = {month}")
 
-#df.to_parquet(f"output_month_{sys.argv[1]}.parquet")
+df.to_parquet(f"output_month_{sys.argv[1]}.parquet")
